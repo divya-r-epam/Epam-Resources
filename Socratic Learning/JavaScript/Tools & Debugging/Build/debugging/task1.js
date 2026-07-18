@@ -1,5 +1,3 @@
-// console.table()
-
 const items = [
     { name: "Divya" },
     {
