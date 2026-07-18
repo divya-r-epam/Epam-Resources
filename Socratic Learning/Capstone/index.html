@@ -1,0 +1,1792 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Travila - Unveil the Beauty of the World Every Day. Browse, Book, Explore travel tours, hotels, tickets and activities worldwide." />
+    <link rel="preload" as="image" href="assets/hero/50bb5480f59d8cd00628eec0f693d3218ea5a3eb.png">
+
+    <link href="./src/output.css" rel="stylesheet" />
+    <meta name="theme-color" content="#FEFA17" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Travila" />
+    <title>Travila - Travel Without Limits</title>
+</head>
+
+<body>
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:bg-white focus:px-4 focus:py-2 focus:rounded-lg focus:z-[999]">
+        Skip to main content
+    </a>
+    <!-- ===== NAVBAR  ===== -->
+    <header id="header" class="sticky top-0 z-50 bg-white border-b border-gray-200 header-shadow" role="banner">
+        <nav class="max-w-[1320px] mx-auto px-3 sm:px-4 lg:px-8 h-[64px] lg:h-[74px] flex items-center justify-between" role="navigation" aria-label="Main navigation">
+            <!-- Logo -->
+            <a href="#hero" id="nav-logo" class="shrink-0">
+                <!-- Desktop -->
+                <img src="assets/hero/logo.svg.png" class="hidden lg:block h-8" alt="Travila" loading="lazy" decoding="async" />
+
+                <!-- Mobile -->
+                <img src="assets/hero/logo2.svg.png" class="block lg:hidden h-10 w-auto" alt="Travila" loading="lazy" decoding="async" />
+            </a>
+
+            <!-- Nav Links -->
+            <ul class="hidden lg:flex items-center gap-5 xl:gap-6" id="nav-links">
+                <li>
+                    <a href="#hero" class="nav-link">Home</a>
+                </li>
+                <li class="relative group">
+                    <a href="#featured-tours" class="nav-link">
+                        Tours
+                        <img src="assets/hero/Image.png" class="dropdown-icon w-3 h-3 opacity-50" alt="" role="presentation">
+                    </a>
+                    <ul class="absolute left-0 top-full pt-2 w-48 bg-white rounded-xl shadow-lg border">
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Adventure Tours</a></li>
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Family Tours</a></li>
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Honeymoon Tours</a></li>
+                    </ul>
+                </li>
+                <li class="relative group">
+                    <a href="#popular-destinations" class="nav-link">
+                        Destinations
+                        <img src="assets/hero/Image.png" class="dropdown-icon w-3 h-3 opacity-50" alt="" role="presentation">
+                    </a>
+                    <ul class="absolute left-0 top-full pt-2 w-48 bg-white rounded-xl shadow-lg border">
+                        <li><a href="#popular-destinations" class="block px-4 py-3 hover:bg-gray-100">Europe</a></li>
+                        <li><a href="#popular-destinations" class="block px-4 py-3 hover:bg-gray-100">Asia</a></li>
+                        <li><a href="#popular-destinations" class="block px-4 py-3 hover:bg-gray-100">Americas</a></li>
+                    </ul>
+                </li>
+                <li class="relative group">
+                    <a href="#popular-spots" class="nav-link">
+                        Activities
+                        <img src="assets/hero/Image.png" class="dropdown-icon w-3 h-3 opacity-50" alt="" role="presentation">
+                    </a>
+                    <ul class="absolute left-0 top-full pt-2 w-48 bg-white rounded-xl shadow-lg border">
+                        <li><a href="#popular-spots" class="block px-4 py-3 hover:bg-gray-100">Sightseeing</a></li>
+                        <li><a href="#popular-spots" class="block px-4 py-3 hover:bg-gray-100">Adventure</a></li>
+                        <li><a href="#popular-spots" class="block px-4 py-3 hover:bg-gray-100">Cultural</a></li>
+                    </ul>
+                </li>
+                <li class="relative group">
+                    <a href="#featured-tours" class="nav-link">
+                        Hotel
+                        <img src="assets/hero/Image.png" class="dropdown-icon w-3 h-3 opacity-50" alt="" role="presentation">
+                    </a>
+                    <ul class="absolute left-0 top-full pt-2 w-48 bg-white rounded-xl shadow-lg border">
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Luxury</a></li>
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Budget</a></li>
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Resorts</a></li>
+                    </ul>
+                </li>
+                <li class="relative group">
+                    <a href="#featured-tours" class="nav-link">
+                        Rental
+                        <img src="assets/hero/Image.png" class="dropdown-icon w-3 h-3 opacity-50" alt="" role="presentation">
+                    </a>
+                    <ul class="absolute left-0 top-full pt-2 w-48 bg-white rounded-xl shadow-lg border">
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Cars</a></li>
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Bikes</a></li>
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Yachts</a></li>
+                    </ul>
+                </li>
+                <li class="relative group">
+                    <a href="#featured-tours" class="nav-link">
+                        Tickets
+                        <img src="assets/hero/Image.png" class="dropdown-icon w-3 h-3 opacity-50" alt="" role="presentation">
+                    </a>
+                    <ul class="absolute left-0 top-full pt-2 w-48 bg-white rounded-xl shadow-lg border">
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Flights</a></li>
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Events</a></li>
+                        <li><a href="#featured-tours" class="block px-4 py-3 hover:bg-gray-100">Attractions</a></li>
+                    </ul>
+                </li>
+                <li class="relative group">
+                    <a href="#blog" class="nav-link">
+                        Pages
+                        <img src="assets/hero/Image.png" class="dropdown-icon w-3 h-3 opacity-50" alt="" role="presentation">
+                    </a>
+                    <ul class="absolute left-0 top-full pt-2 w-48 bg-white rounded-xl shadow-lg border">
+                        <li><a href="#blog" class="block px-4 py-3 hover:bg-gray-100">About Us</a></li>
+                        <li><a href="#testimonials" class="block px-4 py-3 hover:bg-gray-100">Testimonials</a></li>
+                        <li><a href="#faq" class="block px-4 py-3 hover:bg-gray-100">FAQ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li>
+                    <a href="#footer" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Right Side (Desktop) -->
+            <div id="nav-right" class="hidden lg:flex items-center gap-4">
+                <div class="relative" id="lang-menu">
+                    <!-- Trigger -->
+                    <div class="flex items-center gap-1 text-sm font-semibold text-gray-700 cursor-pointer">
+                        <img src="assets/hero/lang.svg.png" alt="language" class="w-5 h-5"> <span class="lang-label">EN</span>
+                        <img src="assets/hero/Image.png" alt="dropdown" class="w-3 h-3 opacity-50">
+                    </div>
+
+                    <!-- Dropdown -->
+                    <ul id="lang-dropdown" class="hidden absolute left-1/2 -translate-x-1/2 top-full pt-2 w-28 rounded-xl bg-white border border-gray-200 shadow-lg z-50">
+                        <li>
+                            <a href="#" class="flex items-center whitespace-nowrap gap-2 px-4 py-2 hover:bg-gray-100">
+                                <img src="assets/flags/us.svg" alt="US" class="w-5 h-5 flex shrink-0"> <span class="mr-3">English</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center gap-2 px-4 py-2 hover:bg-gray-100">
+                                <img src="assets/flags/fr.svg" alt="French" class="w-5 h-5 flex shrink-0"> Français
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center gap-2 px-4 py-2 hover:bg-gray-100">
+                                <img src="assets/flags/es.svg" alt="Spanish" class="w-5 h-5 flex shrink-0"> Español
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="flex items-center gap-2 px-4 py-2 hover:bg-gray-100">
+                                <img src="assets/flags/de.svg" alt="German" class="w-5 h-5 flex shrink-0"> Deutsch
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="relative" id="currency-menu">
+                    <!-- Trigger -->
+                    <div class="flex items-center gap-1 text-sm font-semibold text-gray-700 cursor-pointer">
+                        <span class="currency-label">$</span>
+                        <img src="assets/hero/Image.png" alt="dropdown" class="w-3 h-3 opacity-50">
+                    </div>
+
+                    <!-- Dropdown -->
+                    <ul id="currency-dropdown" class="hidden absolute left-1/2 -translate-x-1/2 top-full w-max min-w-0 rounded-xl bg-white border border-gray-200 shadow-lg z-50">
+                        <li><a href="#" class="block px-3 py-2 hover:bg-gray-100 whitespace-nowrap" data-symbol="$">USD</a></li>
+                        <li><a href="#" class="block px-3 py-2 hover:bg-gray-100 whitespace-nowrap" data-symbol="€">EUR</a></li>
+                        <li><a href="#" class="block px-3 py-2 hover:bg-gray-100 whitespace-nowrap" data-symbol="£">GBP</a></li>
+                        <li><a href="#" class="block px-3 py-2 hover:bg-gray-100 whitespace-nowrap" data-symbol="₹">INR</a></li>
+                    </ul>
+                </div>
+                <button type="button" class="w-9 h-9 rounded-full flex items-center justify-center bg-[#F2F4F6] hover:bg-gray-100 transition" id="theme-toggle" aria-label="Toggle dark mode">
+                    <img src="assets/hero/light.svg fill.png" alt="Light mode icon" class="w-4 h-4" loading="lazy" />
+                </button>
+                <button type="button" id="signin-btn" class="cursor-pointer text-black px-4 py-2 rounded-full text-sm font-semibold border border-gray-200 hover:bg-[#FEFA17] transition flex items-center justify-center whitespace-nowrap" aria-label="Sign in to your account">
+                    Sign In
+                </button>
+            </div>
+
+            <!-- Mobile Right Side -->
+            <div class="lg:hidden flex items-center gap-2 shrink-0" id="mobile-header-controls">
+                <button type="button" id="mobile-menu-btn" class="w-10 h-10 rounded-full flex items-center justify-center bg-[#F2F4F6] hover:bg-gray-100 transition" aria-label="Open menu" aria-expanded="false">
+                    <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="lg:hidden mx-4 mt-3 mb-4 rounded-2xl border border-gray-200 bg-white shadow-xl" inert role="navigation" aria-label="Mobile navigation">
+            <!-- Mobile Menu Header -->
+            <div class="flex items-center justify-between px-5 pt-4 pb-3 border-b border-gray-100">
+                <span class="text-sm font-bold text-gray-400 uppercase tracking-wider">Menu</span>
+                <button type="button" id="mobile-menu-close" class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition" aria-label="Close menu">
+                    <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <ul class="flex flex-col py-2">
+                <li>
+                    <a href="#hero" class="mobile-nav-link block px-5 py-3 text-[15px] font-semibold text-gray-800 hover:bg-gray-50 transition">Home</a>
+                </li>
+                <li class="mobile-dropdown border-t border-gray-100">
+                    <div class="flex items-center">
+                        <a href="#featured-tours" class="mobile-nav-link flex-1 px-5 py-3 text-[15px] font-semibold text-gray-800 hover:bg-gray-50 transition">Tours</a>
+                        <button type="button" class="mobile-dropdown-btn w-12 h-12 flex items-center justify-center hover:bg-gray-50 transition" aria-label="Toggle dropdown">
+                            <svg class="w-4 h-4 text-gray-400 transition-transform" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="mobile-dropdown-content bg-gray-50">
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Adventure Tours</a></li>
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Family Tours</a></li>
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Honeymoon Tours</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-dropdown border-t border-gray-100">
+                    <div class="flex items-center">
+                        <a href="#popular-destinations" class="mobile-nav-link flex-1 px-5 py-3 text-[15px] font-semibold text-gray-800 hover:bg-gray-50 transition">Destinations</a>
+                        <button type="button" class="mobile-dropdown-btn w-12 h-12 flex items-center justify-center hover:bg-gray-50 transition" aria-label="Toggle dropdown">
+                            <svg class="w-4 h-4 text-gray-400 transition-transform" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="mobile-dropdown-content bg-gray-50">
+                        <li><a href="#popular-destinations" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Europe</a></li>
+                        <li><a href="#popular-destinations" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Asia</a></li>
+                        <li><a href="#popular-destinations" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Americas</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-dropdown border-t border-gray-100">
+                    <div class="flex items-center">
+                        <a href="#popular-spots" class="mobile-nav-link flex-1 px-5 py-3 text-[15px] font-semibold text-gray-800 hover:bg-gray-50 transition">Activities</a>
+                        <button type="button" class="mobile-dropdown-btn w-12 h-12 flex items-center justify-center hover:bg-gray-50 transition" aria-label="Toggle dropdown">
+                            <svg class="w-4 h-4 text-gray-400 transition-transform" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="mobile-dropdown-content bg-gray-50">
+                        <li><a href="#popular-spots" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Sightseeing</a></li>
+                        <li><a href="#popular-spots" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Adventure</a></li>
+                        <li><a href="#popular-spots" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Cultural</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-dropdown border-t border-gray-100">
+                    <div class="flex items-center">
+                        <a href="#featured-tours" class="mobile-nav-link flex-1 px-5 py-3 text-[15px] font-semibold text-gray-800 hover:bg-gray-50 transition">Hotel</a>
+                        <button type="button" class="mobile-dropdown-btn w-12 h-12 flex items-center justify-center hover:bg-gray-50 transition" aria-label="Toggle dropdown">
+                            <svg class="w-4 h-4 text-gray-400 transition-transform" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="mobile-dropdown-content bg-gray-50">
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Luxury</a></li>
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Budget</a></li>
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Resorts</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-dropdown border-t border-gray-100">
+                    <div class="flex items-center">
+                        <a href="#featured-tours" class="mobile-nav-link flex-1 px-5 py-3 text-[15px] font-semibold text-gray-800 hover:bg-gray-50 transition">Rental</a>
+                        <button type="button" class="mobile-dropdown-btn w-12 h-12 flex items-center justify-center hover:bg-gray-50 transition" aria-label="Toggle dropdown">
+                            <svg class="w-4 h-4 text-gray-400 transition-transform" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="mobile-dropdown-content bg-gray-50">
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Cars</a></li>
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Bikes</a></li>
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Yachts</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-dropdown border-t border-gray-100">
+                    <div class="flex items-center">
+                        <a href="#featured-tours" class="mobile-nav-link flex-1 px-5 py-3 text-[15px] font-semibold text-gray-800 hover:bg-gray-50 transition">Tickets</a>
+                        <button type="button" class="mobile-dropdown-btn w-12 h-12 flex items-center justify-center hover:bg-gray-50 transition" aria-label="Toggle dropdown">
+                            <svg class="w-4 h-4 text-gray-400 transition-transform" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="mobile-dropdown-content bg-gray-50">
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Flights</a></li>
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Events</a></li>
+                        <li><a href="#featured-tours" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Attractions</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-dropdown border-t border-gray-100">
+                    <div class="flex items-center">
+                        <a href="#blog" class="mobile-nav-link flex-1 px-5 py-3 text-[15px] font-semibold text-gray-800 hover:bg-gray-50 transition">Pages</a>
+                        <button type="button" class="mobile-dropdown-btn w-12 h-12 flex items-center justify-center hover:bg-gray-50 transition" aria-label="Toggle dropdown">
+                            <svg class="w-4 h-4 text-gray-400 transition-transform" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                    </div>
+                    <ul class="mobile-dropdown-content bg-gray-50">
+                        <li><a href="#blog" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">About Us</a></li>
+                        <li><a href="#testimonials" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">Testimonials</a></li>
+                        <li><a href="#faq" class="mobile-nav-link block px-8 py-2.5 text-sm text-gray-600 hover:text-black hover:bg-gray-100 transition">FAQ</a></li>
+                    </ul>
+                </li>
+                <li class="border-t border-gray-100">
+                    <a href="#blog" class="mobile-nav-link block px-5 py-3 text-[15px] font-semibold text-gray-800 hover:bg-gray-50 transition">Blog</a>
+                </li>
+                <li class="border-t border-gray-100">
+                    <a href="#footer" class="mobile-nav-link block px-5 py-3 text-[15px] font-semibold text-gray-800 hover:bg-gray-50 transition">Contact</a>
+                </li>
+            </ul>
+            <div class="px-5 pb-4 pt-2 border-t border-gray-100">
+                <button type="button" id="mobile-signin-btn" class="w-full rounded-full bg-black text-white py-3 font-semibold text-sm hover:bg-gray-800 transition" aria-label="Sign in to your account">
+                    Sign In
+                </button>
+            </div>
+        </div>
+
+    </header>
+
+    <main id="main-content" role="main">
+
+        <!-- ===== HERO SECTION  ===== -->
+        <section id="hero" class="hero-bg relative overflow-hidden" role="region" aria-label="Hero section">
+            <div class="hero-inner max-w-[1280px] mx-auto px-10 lg:px-16 xl:px-24 relative z-10">
+                <div class="flex flex-col lg:flex-row lg:items-start gap-10 lg:gap-6">
+                    <!-- Left Content -->
+                    <div class="hero-left flex-1">
+                        <!-- Badge -->
+                        <div class="inline-flex items-center gap-2 bg-accent px-5 py-2 rounded-full mb-6">
+                            <img src="assets/hero/earth.svg.png" alt="globe" class="w-5 h-5" loading="lazy" decoding="async" />
+                            <span class="text-sm font-bold text-black">Explore the World</span>
+                        </div>
+
+                        <h1 class="text-4xl lg:text-[52px] font-extrabold text-black leading-tight mb-4">
+                            Unveil the Beauty<br />of the World Every Day
+                        </h1>
+
+                        <p class="text-[#737373] text-base mb-8">
+                            Travel Without Limits Browse, Book, Explore
+                        </p>
+
+                        <div class="hero-card bg-white border border-gray-200 rounded-xl shadow-lg p-6">
+                            <!-- Search Tabs -->
+                            <div class="flex items-center justify-between gap-4 mb-4">
+                                <div class="flex overflow-x-auto gap-1 whitespace-nowrap pb-1 scrollbar-hide flex-1" role="tablist" aria-label="Search categories">
+                                    <button class="search-tab active" role="tab" aria-selected="true" aria-controls="search-content">Tours</button>
+
+                                    <button class="search-tab" role="tab" aria-selected="false" aria-controls="search-content">Hotels</button>
+
+                                    <button class="search-tab" role="tab" aria-selected="false" aria-controls="search-content">Tickets</button>
+
+                                    <button class="search-tab" role="tab" aria-selected="false" aria-controls="search-content">Rental</button>
+
+                                    <button class="search-tab" role="tab" aria-selected="false" aria-controls="search-content">Activities</button>
+                                </div>
+
+                                <!-- Need help -->
+                                <div class="hidden sm:flex items-center gap-2 flex-shrink-0 cursor-pointer hover:opacity-80 transition">
+                                    <img src="assets/hero/user.svg.png" alt="help" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                    <span class="text-sm text-[#737373] whitespace-nowrap">Need some help?</span>
+                                </div>
+                            </div>
+
+
+                            <!-- Search Bar -->
+                            <div id="search-content" class="bg-white rounded-2xl border border-gray-200 p-5" role="tabpanel" tabindex="0" aria-label="Travel search options">
+                                <!-- Tours Form -->
+                                <div class="search-form active flex flex-col sm:flex-row items-stretch gap-4" data-form="tours">
+                                    <div class="flex-1 border-r border-gray-200 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="destination-tours">Location</label>
+                                        <div class="relative">
+                                            <div class="flex items-center gap-1">
+                                                <img src="assets/hero/location.svg.png" alt="location" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                                <select id="destination-tours" class="text-sm font-semibold text-gray-dark bg-transparent outline-none flex-1 cursor-pointer ml-1 appearance-none pr-6">
+                                                    <option>New York, USA</option>
+                                                    <option>Paris, France</option>
+                                                    <option>London, UK</option>
+                                                    <option>Tokyo, Japan</option>
+                                                    <option>Dubai, UAE</option>
+                                                </select>
+                                                <svg class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 opacity-40 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="checkin-tours">Check In</label>
+                                        <div class="flex items-center gap-1">
+                                            <img src="assets/hero/Clip path group.png" alt="calendar" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                            <input type="date" id="checkin-tours" class="text-sm font-semibold text-gray-white bg-transparent outline-none flex-1 cursor-pointer ml-1" value="2024-01-02" aria-label="Check in date for tours" />
+                                        </div>
+                                    </div>
+                                    <button class="bg-black text-white px-6 py-3 rounded-lg w-full sm:w-auto text-sm font-bold flex items-center justify-center gap-2 hover:bg-gray-800 transition hero-search-btn" aria-label="Search for tours">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                        </svg>
+                                        Search
+                                    </button>
+                                </div>
+
+                                <!-- Hotels Form -->
+                                <div class="search-form hidden flex flex-col sm:flex-row items-stretch gap-4" data-form="hotels">
+                                    <div class="flex-1 border-r border-gray-200 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="destination-hotels">Destination</label>
+                                        <div class="relative">
+                                            <div class="flex items-center gap-1">
+                                                <img src="assets/hero/location.svg.png" alt="location" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                                <select id="destination-hotels" class="text-sm font-semibold text-gray-dark bg-transparent outline-none flex-1 cursor-pointer ml-1 appearance-none pr-6" aria-label="Destination for hotels">
+                                                    <option>New York, USA</option>
+                                                    <option>Paris, France</option>
+                                                    <option>London, UK</option>
+                                                    <option>Tokyo, Japan</option>
+                                                    <option>Dubai, UAE</option>
+                                                </select>
+                                                <svg class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 opacity-40 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 border-r border-gray-200 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="checkin-hotels">Check In</label>
+                                        <div class="flex items-center gap-1">
+                                            <img src="assets/hero/Clip path group.png" alt="calendar" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                            <input type="date" id="checkin-hotels" class="text-sm font-semibold text-gray-white bg-transparent outline-none flex-1 cursor-pointer ml-1" value="2024-01-02" aria-label="Check in date for hotels" />
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="checkout-hotels">Check Out</label>
+                                        <div class="flex items-center gap-1">
+                                            <img src="assets/hero/Clip path group.png" alt="calendar" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                            <input type="date" id="checkout-hotels" class="text-sm font-semibold text-gray-white bg-transparent outline-none flex-1 cursor-pointer ml-1" value="2024-01-03" aria-label="Check out date for hotels" />
+                                        </div>
+                                    </div>
+                                    <button class="bg-black text-white px-6 py-3 rounded-lg w-full sm:w-auto text-sm font-bold flex items-center justify-center gap-2 hover:bg-gray-800 transition hero-search-btn" aria-label="Search for hotels">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                        </svg>
+                                        Search
+                                    </button>
+                                </div>
+
+                                <!-- Tickets Form -->
+                                <div class="search-form hidden flex flex-col sm:flex-row items-stretch gap-4" data-form="tickets">
+                                    <div class="flex-1 border-r border-gray-200 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="event-tickets">Event</label>
+                                        <div class="relative">
+                                            <div class="flex items-center gap-1">
+                                                <img src="assets/hero/location.svg.png" alt="location" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                                <select id="event-tickets" class="text-sm font-semibold text-gray-dark bg-transparent outline-none flex-1 cursor-pointer ml-1 appearance-none pr-6" aria-label="Event type for tickets">
+                                                    <option>Concerts</option>
+                                                    <option>Sports</option>
+                                                    <option>Theater</option>
+                                                    <option>Exhibitions</option>
+                                                    <option>Festivals</option>
+                                                </select>
+                                                <svg class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 opacity-40 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 border-r border-gray-200 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="date-tickets">Date</label>
+                                        <div class="flex items-center gap-1">
+                                            <img src="assets/hero/Clip path group.png" alt="calendar" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                            <input type="date" id="date-tickets" class="text-sm font-semibold text-gray-white bg-transparent outline-none flex-1 cursor-pointer ml-1" value="2024-01-02" aria-label="Date for tickets" />
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="quantity-tickets">Quantity</label>
+                                        <div class="relative">
+                                            <div class="flex items-center gap-1">
+                                                <select id="quantity-tickets" class="text-sm font-semibold text-gray-dark bg-transparent outline-none flex-1 cursor-pointer ml-1 appearance-none pr-6" aria-label="Number of tickets">
+                                                    <option>1 Ticket</option>
+                                                    <option>2 Tickets</option>
+                                                    <option>3 Tickets</option>
+                                                    <option>4+ Tickets</option>
+                                                </select>
+                                                <svg class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 opacity-40 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="bg-black text-white px-6 py-3 rounded-lg w-full sm:w-auto text-sm font-bold flex items-center justify-center gap-2 hover:bg-gray-800 transition hero-search-btn" aria-label="Search for tickets">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                        </svg>
+                                        Search
+                                    </button>
+                                </div>
+
+                                <!-- Rental Form -->
+                                <div class="search-form hidden flex flex-col sm:flex-row items-stretch gap-4" data-form="rental">
+                                    <div class="flex-1 border-r border-gray-200 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="pickup-location">Pick-up
+                                            Location</label>
+                                        <div class="relative">
+                                            <div class="flex items-center gap-1">
+                                                <img src="assets/hero/location.svg.png" alt="location" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                                <select id="pickup-location" class="text-sm font-semibold text-gray-dark bg-transparent outline-none flex-1 cursor-pointer ml-1 appearance-none pr-6" aria-label="Pick-up location">
+                                                    <option>Airport</option>
+                                                    <option>City Center</option>
+                                                    <option>Train Station</option>
+                                                    <option>Hotel</option>
+                                                </select>
+                                                <svg class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 opacity-40 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 border-r border-gray-200 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="pickup-date">Pick-up
+                                            Date</label>
+                                        <div class="flex items-center gap-1">
+                                            <img src="assets/hero/Clip path group.png" alt="calendar" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                            <input type="date" id="pickup-date" class="text-sm font-semibold text-gray-white bg-transparent outline-none flex-1 cursor-pointer ml-1" value="2024-01-02" aria-label="Pick-up date for rental" />
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="vehicle-type">Vehicle
+                                            Type</label>
+                                        <div class="relative">
+                                            <div class="flex items-center gap-1">
+                                                <select id="vehicle-type" class="text-sm font-semibold text-gray-dark bg-transparent outline-none flex-1 cursor-pointer ml-1 appearance-none pr-6" aria-label="Vehicle type">
+                                                    <option>Car</option>
+                                                    <option>SUV</option>
+                                                    <option>Van</option>
+                                                    <option>Luxury</option>
+                                                </select>
+                                                <svg class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 opacity-40 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="bg-black text-white px-6 py-3 rounded-lg w-full sm:w-auto text-sm font-bold flex items-center justify-center gap-2 hover:bg-gray-800 transition hero-search-btn" aria-label="Search for rentals">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                        </svg>
+                                        Search
+                                    </button>
+                                </div>
+
+                                <!-- Activities Form -->
+                                <div class="search-form hidden flex flex-col sm:flex-row items-stretch gap-4" data-form="activities">
+                                    <div class="flex-1 border-r border-gray-200 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="activity-type">Activity
+                                            Type</label>
+                                        <div class="relative">
+                                            <div class="flex items-center gap-1">
+                                                <img src="assets/hero/location.svg.png" alt="location" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                                <select id="activity-type" class="text-sm font-semibold text-gray-dark bg-transparent outline-none flex-1 cursor-pointer ml-1 appearance-none pr-6" aria-label="Activity type">
+                                                    <option>Sightseeing</option>
+                                                    <option>Adventure</option>
+                                                    <option>Water Sports</option>
+                                                    <option>Cultural Tours</option>
+                                                    <option>Food & Wine</option>
+                                                </select>
+                                                <svg class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 opacity-40 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 border-r border-gray-200 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="activity-date">Date</label>
+                                        <div class="flex items-center gap-1">
+                                            <img src="assets/hero/Clip path group.png" alt="calendar" class="w-4 h-4 opacity-60" loading="lazy" decoding="async" />
+                                            <input type="date" id="activity-date" class="text-sm font-semibold text-gray-white bg-transparent outline-none flex-1 cursor-pointer ml-1" value="2024-01-02" aria-label="Date for activities" />
+                                        </div>
+                                    </div>
+                                    <div class="flex-1 pr-4">
+                                        <label class="text-xs text-[#737373] font-semibold block mb-1" for="participants">Participants</label>
+                                        <div class="relative">
+                                            <div class="flex items-center gap-1">
+                                                <select id="participants" class="text-sm font-semibold text-gray-dark bg-transparent outline-none flex-1 cursor-pointer ml-1 appearance-none pr-6" aria-label="Number of participants">
+                                                    <option>1 Person</option>
+                                                    <option>2 People</option>
+                                                    <option>3-5 People</option>
+                                                    <option>6+ People</option>
+                                                </select>
+                                                <svg class="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 opacity-40 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="bg-black text-white px-6 py-3 rounded-lg w-full sm:w-auto text-sm font-bold flex items-center justify-center gap-2 hover:bg-gray-800 transition hero-search-btn" aria-label="Search for activities">
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                        </svg>
+                                        Search
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right - Traveler Image -->
+                    <div class="hero-right flex-1 relative hidden lg:block">
+                        <img src="assets/hero/50bb5480f59d8cd00628eec0f693d3218ea5a3eb.png" alt="Traveler" class="relative z-10 max-h-[520px] object-contain ml-auto" loading="eager" fetchpriority="high" decoding="async" />
+
+                        <!-- Ratings floater -->
+                        <div class="absolute bg-white rounded-xl shadow-lg px-5 py-3 items-center gap-3 mb-8 inline-flex bottom-42 z-10 left-4">
+                            <div class="w-10 h-10 bg-black rounded-full flex items-center justify-center">
+                                <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="text-sm font-bold text-black">5.0 Stars</div>
+                                <div class="flex items-center gap-2">
+                                    <div class="flex text-accent text-xs">
+                                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                            <path
+                                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                            <path
+                                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                            <path
+                                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                            <path
+                                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                            <path
+                                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                        </svg>
+                                    </div>
+                                    <span class="text-xs text-[#737373]">69k reviews</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hotline Booking floater -->
+                        <div class="absolute bottom-20 right-0 bg-white rounded-xl shadow-lg px-5 py-3 flex items-center gap-3 z-20">
+                            <div class="w-10 h-10 bg-red-500 rounded-full flex items-center justify-center">
+                                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <div class="text-xs text-[#737373]">Hotline Booking</div>
+                                <div class="text-sm font-bold text-black">1-800-222-8888</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PARTNERS SECTION ===== -->
+        <section id="partners" class="partners-section py-10 lg:py-10 mt-16 mb-10" role="region" aria-label="Partner logos">
+            <div class="flex justify-center w-full overflow-hidden">
+                <!-- Scroll on mobile -->
+                <div class="partners-scroll flex items-center justify-start lg:justify-center gap-8 px-6 lg:px-8 overflow-x-auto lg:overflow-visible whitespace-nowrap">
+                    <img src="assets/hero/c60b687ff3ba1836a0e10913a64070be12709556.png" alt="PayPal" class="h-7 w-auto flex-shrink-0 snap-start" loading="lazy" decoding="async" />
+
+                    <img src="assets/hero/c415a610749a04da06995f0f0ed2c3636506dc41.png" alt="Stripe" class="h-7 w-auto flex-shrink-0 snap-start" loading="lazy" decoding="async" />
+
+                    <img src="assets/hero/5e12198bf329177cae5fe6700b5b926d474a4183.png" alt="Payoneer" class="h-7 w-auto flex-shrink-0 snap-start" loading="lazy" decoding="async" />
+
+                    <img src="assets/hero/25e80063e8e13237b58699aa3442227dbba205b6.png" alt="Visa" class="h-7 w-auto flex-shrink-0 snap-start" loading="lazy" decoding="async" />
+
+                    <img src="assets/hero/7380ae74eab9e36b35afa60a08608ea6ed11de8f.png" alt="Cash App" class="h-7 w-auto flex-shrink-0 snap-start" loading="lazy" decoding="async" />
+
+                    <img src="assets/hero/95e4deb288a11e9c3611cb0bb0281f7f1bdc1673.png" alt="Bitcoin" class="h-7 w-auto flex-shrink-0 snap-start" loading="lazy" decoding="async" />
+
+                    <img src="assets/hero/0e6babe51d838135ea38c27afa90d24c43844c27.png" alt="Discover" class="h-7 w-auto max-w-full flex-shrink-0 snap-start mr-0" loading="lazy" decoding="async" />
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== POPULAR DESTINATIONS ===== -->
+        <section id="popular-destinations" class="py-10 lg:py-14" role="region" aria-label="Popular destinations">
+            <div class="max-w-[1320px] mx-auto px-6 lg:px-8">
+                <!-- Section Header -->
+                <div class="text-center mb-12">
+                    <h2 class="section-title">Popular Destinations</h2>
+                    <p class="section-subtitle">Navigate the Globe with Confidence</p>
+                </div>
+
+                <!-- Carousel -->
+                <div class="relative flex items-center gap-4">
+                    <button type="button" class="carousel-arrow destinations-prev" id="dest-prev" aria-label="Previous destinations">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+
+                    <div class="destinations-overflow flex-1">
+                        <div class="destinations-carousel" id="destinations-carousel" role="region" aria-label="Popular destinations" aria-roledescription="carousel">
+                            <!-- Destinations loaded dynamically from data/destinations.json -->
+                        </div>
+                    </div>
+
+                    <button type="button" class="carousel-arrow destinations-next" id="dest-next" aria-label="Next destinations">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== OUR FEATURED TOURS ===== -->
+        <section id="featured-tours" class="py-10 lg:py-14" role="region" aria-label="Featured tours">
+            <div class="max-w-[1320px] mx-auto px-6 lg:px-8">
+                <!-- Header -->
+                <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between mb-10 gap-4">
+                    <div>
+                        <h2 class="section-title">Our Featured Tours</h2>
+                        <p class="section-subtitle">
+                            Favorite destinations based on customer reviews
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap items-center gap-3">
+                        <div class="filter-select-wrapper">
+                            <label class="sr-only" for="filter-category">Categories</label>
+                            <select id="filter-category" class="filter-select">
+                                <option value="">Categories</option>
+                                <option value="cruise">Cruise</option>
+                                <option value="food">Food</option>
+                                <option value="adventure">Adventure</option>
+                            </select>
+                            <svg class="filter-select-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+                        <div class="filter-select-wrapper">
+                            <label class="sr-only" for="filter-duration">Duration</label>
+                            <select id="filter-duration" class="filter-select">
+                                <option value="">Duration</option>
+                                <option value="short">2-3 days</option>
+                                <option value="medium">3-4 days</option>
+                                <option value="long">7+ days</option>
+                            </select>
+                            <svg class="filter-select-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+                        <div class="filter-select-wrapper">
+                            <label class="sr-only" for="filter-rating">Review / Rating</label>
+                            <select id="filter-rating" class="filter-select">
+                                <option value="">Review / Rating</option>
+                                <option value="4.5">4.5+ Stars</option>
+                                <option value="4.8">4.8+ Stars</option>
+                                <option value="5.0">5.0 Stars</option>
+                            </select>
+                            <svg class="filter-select-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+                        <div class="filter-select-wrapper">
+                            <label class="sr-only" for="filter-price">Price range</label>
+                            <select id="filter-price" class="filter-select">
+                                <option value="">Price range</option>
+                                <option value="budget">Budget</option>
+                                <option value="mid">Mid-range</option>
+                                <option value="premium">Premium</option>
+                            </select>
+                            <svg class="filter-select-arrow" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </div>
+                        <button id="clear-tour-filters" class="filter-btn">
+                            Clear filters
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Tour Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7" id="tours-grid">
+                    <!-- Tour cards loaded dynamically from data/tours.json -->
+                    <div class="skeleton-card" aria-hidden="true">
+                        <div class="h-60 bg-gray-200 rounded-t-2xl animate-pulse"></div>
+                        <div class="p-5 space-y-3">
+                            <div class="h-5 bg-gray-200 rounded animate-pulse w-3/4"></div>
+                            <div class="h-4 bg-gray-200 rounded animate-pulse w-1/2"></div>
+                            <div class="h-4 bg-gray-200 rounded animate-pulse w-1/3"></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card" aria-hidden="true">
+                        <div class="h-60 bg-gray-200 rounded-t-2xl animate-pulse"></div>
+                        <div class="p-5 space-y-3">
+                            <div class="h-5 bg-gray-200 rounded animate-pulse w-3/4"></div>
+                            <div class="h-4 bg-gray-200 rounded animate-pulse w-1/2"></div>
+                            <div class="h-4 bg-gray-200 rounded animate-pulse w-1/3"></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card" aria-hidden="true">
+                        <div class="h-60 bg-gray-200 rounded-t-2xl animate-pulse"></div>
+                        <div class="p-5 space-y-3">
+                            <div class="h-5 bg-gray-200 rounded animate-pulse w-3/4"></div>
+                            <div class="h-4 bg-gray-200 rounded animate-pulse w-1/2"></div>
+                            <div class="h-4 bg-gray-200 rounded animate-pulse w-1/3"></div>
+                        </div>
+                    </div>
+
+                    <!-- Load More -->
+                    <div class="text-center mt-10">
+                        <button type="button" class="inline-flex items-center gap-2 px-6 py-3 border border-gray-300 rounded-lg text-sm font-bold text-black hover:bg-black hover:text-white transition" id="load-more-tours" aria-label="Load more tours">
+                            <img loading="lazy" decoding="async" src="assets/hero/menu.svg.png" alt="" role="presentation"
+                                class="w-4 h-4" />
+                            Load More Tours
+                        </button>
+                    </div>
+                </div>
+        </section>
+
+        <!-- ===== PROMOTIONAL BANNERS ===== -->
+        <section id="promo-banners" class="py-12" role="region" aria-label="Promotional banners">
+            <div class="max-w-[1320px] mx-auto px-6 lg:px-8">
+                <div class="relative flex items-center gap-4">
+                    <button type="button" class="carousel-arrow promo-prev" id="promo-prev" aria-label="Previous banner">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+
+                    <div class="promo-carousel-wrapper flex-1">
+                        <div class="promo-carousel" id="promo-carousel" role="region" aria-label="Promotional offers" aria-roledescription="carousel">
+                            <!-- Banner 1 -->
+                            <div class="promo-card bg-gradient-to-r from-blue-400 to-blue-300 flex items-center p-6 relative">
+                                <div class="relative z-10">
+                                    <h3 class="text-white text-xl font-extrabold leading-tight mb-4">
+                                        We Make Every<br />Trips Special
+                                    </h3>
+                                    <button type="button" class="inline-flex items-center gap-2 bg-accent text-black px-4 py-2 rounded-full text-sm font-bold hover:bg-yellow-400 transition" aria-label="View more travel offers" aria-controls="promo-carousel" data-demo-link>
+                                        View More <span>→</span>
+                                    </button>
+                                </div>
+                                <img src="assets/how-it-works/27b4e3d4bd40c9e8474b26cedfb30a25a122b8ea.png" alt="trips" class="absolute right-0 bottom-0 h-full w-1/2 object-cover object-right opacity-70" loading="lazy" decoding="async" />
+                            </div>
+
+                            <!-- Banner 2 -->
+                            <div class="promo-card bg-gradient-to-r from-yellow-200 to-yellow-100 flex items-center p-6 relative">
+                                <div class="relative z-10">
+                                    <p class="text-sm text-gray-600 mb-1">Limited Offers</p>
+                                    <h3 class="text-black text-xl font-extrabold leading-tight mb-4">
+                                        Buy 1, Get 1 Free<br />Attractions
+                                    </h3>
+                                    <button type="button" class="inline-flex items-center gap-2 bg-accent text-black px-4 py-2 rounded-full text-sm font-bold hover:bg-yellow-400 transition" data-demo-link aria-label="View more offers">
+                                        View More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 5l7 7-7 7" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <img src="assets/how-it-works/9bee1245677f11ec483d41c1acece550858d397d.png" alt="offers" class="absolute right-0 bottom-0 h-full w-1/2 object-cover opacity-60" loading="lazy" decoding="async" />
+                            </div>
+
+                            <!-- Banner 3 -->
+                            <div class="promo-card relative overflow-hidden">
+                                <img src="assets/how-it-works/b4e2187dd4ae560da64f58aa5815ee10206e2afe.png" alt="nature" class="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async" />
+                                <div class="relative z-10 p-6 h-full flex flex-col justify-center">
+                                    <span class="bg-accent text-black text-xs font-bold px-3 py-1 rounded inline-block mb-2 w-fit">Limited
+                                        Offers</span>
+                                    <h3 class="text-black text-xl font-extrabold leading-tight mb-4">
+                                        Buy 1, Get 1 Free<br />Attractions
+                                    </h3>
+                                    <button type="button" class="inline-flex items-center gap-2 bg-black text-white px-4 py-2 rounded-full text-sm font-bold hover:bg-gray-800 transition w-fit" data-demo-link aria-label="View more offers">
+                                        View More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 5l7 7-7 7" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="button" class="carousel-arrow promo-next" id="promo-next" aria-label="Next banner">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== HOW IT WORK ===== -->
+        <section id="how-it-works" class="py-16 lg:py-24 relative overflow-hidden" role="region" aria-label="How it works">
+            <div class="max-w-[1320px] mx-auto px-6 lg:px-8">
+                <!-- Section Header -->
+                <div class="text-center mb-16">
+                    <h2 class="section-title">How It Works</h2>
+                    <p class="section-subtitle">
+                        Competitive fares for your route-specific searches.
+                    </p>
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col lg:flex-row gap-12 items-stretch relative how-it-works-row">
+                    <!-- Left - Images -->
+                    <div class="flex-1 how-it-works-left flex flex-col gap-4 md:max-w-[700px] lg:max-w-[480px]">
+                        <div class="rounded-2xl overflow-hidden how-it-works-top" style="height: 280px">
+                            <img src="assets/how-it-works/b4e2187dd4ae560da64f58aa5815ee10206e2afe.png" alt="Friends traveling" class="w-full h-full object-cover object-center rounded-2xl" loading="lazy" decoding="async" />
+                        </div>
+                        <div class="how-it-works-imgs" style="height: 220px">
+                            <div class="rounded-2xl overflow-hidden">
+                                <img src="assets/how-it-works/9bee1245677f11ec483d41c1acece550858d397d.png" alt="Travel luggage collage" class="w-full h-full object-cover object-center rounded-2xl" loading="lazy" decoding="async" />
+                            </div>
+                            <div class="rounded-2xl overflow-hidden">
+                                <img src="assets/how-it-works/27b4e3d4bd40c9e8474b26cedfb30a25a122b8ea.png" alt="Traveler jumping" class="w-full h-full object-cover object-center rounded-2xl" loading="lazy" decoding="async" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right - Steps -->
+                    <div class="flex-1 how-it-works-right flex flex-col gap-4">
+                        <!-- Step 1 -->
+                        <div class="step-card">
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-full bg-accent-light flex items-center justify-center flex-shrink-0">
+                                    <img src="assets/how-it-works/security.svg fill.png" alt="find" class="w-6 h-6" />
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-black mb-2">
+                                        Find Your Destination
+                                    </h3>
+                                    <p class="text-sm text-[#737373] leading-relaxed">
+                                        Choose your destination based on weather, activities, and budget. Check travel advisories, visa requirements, and safety concerns.
+                                    </p>
+                                    <a href="#featured-tours" class="inline-flex items-center gap-1 text-sm font-bold text-black mt-3 hover:text-orange transition" data-demo-link>
+                                        Learn More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 5l7 7-7 7" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="step-card">
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-full bg-pink-light flex items-center justify-center flex-shrink-0">
+                                    <img loading="lazy" decoding="async" src="assets/how-it-works/support.svg.png" alt="book" class="w-6 h-6" />
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-black mb-2">
+                                        Book a Ticket
+                                    </h3>
+                                    <p class="text-sm text-[#737373] leading-relaxed">
+                                        Choose reputable platforms or book directly. Read reviews and understand cancellation policies.
+                                    </p>
+                                    <a href="#featured-tours" class="inline-flex items-center gap-1 text-sm font-bold text-black mt-3 hover:text-orange transition" data-demo-link>
+                                        Learn More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 5l7 7-7 7" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="step-card">
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 rounded-full bg-blue-light flex items-center justify-center flex-shrink-0">
+                                    <img loading="lazy" decoding="async" src="assets/how-it-works/policy.svg.png" alt="pay" class="w-6 h-6" />
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-bold text-black mb-2">Pay and Go</h3>
+                                    <p class="text-sm text-[#737373] leading-relaxed">
+                                        Ensure secure transactions. Save and print confirmation emails. Consider travel insurance for unforeseen events.
+                                    </p>
+                                    <a href="#featured-tours" class="inline-flex items-center gap-1 text-sm font-bold text-black mt-3 hover:text-orange transition" data-demo-link>
+                                        Learn More
+                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M9 5l7 7-7 7" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dashed path decoration -->
+                <svg class="dashed-path hidden lg:block" viewBox="0 0 1400 700" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path d="M120 140 C220 80, 420 80, 520 220 S820 500, 1060 360" stroke="#333" stroke-width="2"
+                        stroke-dasharray="8 8" fill="none" opacity="0.15" />
+                </svg>
+            </div>
+        </section>
+
+        <!-- ===== FAQ SECTION ===== -->
+        <section id="faq" class="py-16 lg:py-24" role="region" aria-label="Frequently asked questions">
+            <div class="max-w-[800px] mx-auto px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle">Find answers to common questions about our services</p>
+                </div>
+                <div class="accordion" id="faq-accordion" role="region" aria-label="Frequently Asked Questions">
+                    <div class="accordion-item" data-accordion>
+                        <button class="accordion-header w-full flex items-center justify-between py-5 text-left" aria-expanded="false" aria-controls="faq-1">
+                            <span class="text-base font-bold text-black pr-4">How do I book a tour on Travila?</span>
+                            <svg class="accordion-icon w-5 h-5 flex-shrink-0 transition-transform duration-300"
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content overflow-hidden max-h-0" id="faq-1" role="region">
+                            <p class="pb-5 text-sm text-[#737373] leading-relaxed">Simply browse our featured tours, select your preferred destination, choose your dates, and click "Book Now". You can pay securely through our supported payment methods including PayPal, Stripe, and major credit cards.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-accordion>
+                        <button class="accordion-header w-full flex items-center justify-between py-5 text-left" aria-expanded="false" aria-controls="faq-2">
+                            <span class="text-base font-bold text-black pr-4">What is the cancellation policy?</span>
+                            <svg class="accordion-icon w-5 h-5 flex-shrink-0 transition-transform duration-300"
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content overflow-hidden max-h-0" id="faq-2" role="region">
+                            <p class="pb-5 text-sm text-[#737373] leading-relaxed">You can cancel most bookings up to 48 hours before the tour start date for a full refund. Some special tours may have different cancellation policies, which will be clearly stated on the booking page.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-accordion>
+                        <button class="accordion-header w-full flex items-center justify-between py-5 text-left" aria-expanded="false" aria-controls="faq-3">
+                            <span class="text-base font-bold text-black pr-4">Are the tours suitable for families with
+                                children?</span>
+                            <svg class="accordion-icon w-5 h-5 flex-shrink-0 transition-transform duration-300"
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content overflow-hidden max-h-0" id="faq-3" role="region">
+                            <p class="pb-5 text-sm text-[#737373] leading-relaxed">Yes! Many of our tours are family-friendly and suitable for children of all ages. Each tour listing specifies the recommended age range and any restrictions. Look for the "Family" tag on our tour cards.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-accordion>
+                        <button class="accordion-header w-full flex items-center justify-between py-5 text-left" aria-expanded="false" aria-controls="faq-4">
+                            <span class="text-base font-bold text-black pr-4">What payment methods do you accept?</span>
+                            <svg class="accordion-icon w-5 h-5 flex-shrink-0 transition-transform duration-300"
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content overflow-hidden max-h-0" id="faq-4" role="region">
+                            <p class="pb-5 text-sm text-[#737373] leading-relaxed">We accept PayPal, Stripe, Mastercard, Visa, Skrill, and Bitcoin. All transactions are secured with industry-standard encryption to protect your financial information.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-accordion>
+                        <button class="accordion-header w-full flex items-center justify-between py-5 text-left" aria-expanded="false" aria-controls="faq-5">
+                            <span class="text-base font-bold text-black pr-4">Do I need travel insurance?</span>
+                            <svg class="accordion-icon w-5 h-5 flex-shrink-0 transition-transform duration-300"
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content overflow-hidden max-h-0" id="faq-5" role="region">
+                            <p class="pb-5 text-sm text-[#737373] leading-relaxed">While travel insurance is not mandatory, we strongly recommend it for all international trips. It covers unexpected cancellations, medical emergencies, and lost luggage.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item" data-accordion>
+                        <button class="accordion-header w-full flex items-center justify-between py-5 text-left" aria-expanded="false" aria-controls="faq-6">
+                            <span class="text-base font-bold text-black pr-4">How can I contact customer support?</span>
+                            <svg class="accordion-icon w-5 h-5 flex-shrink-0 transition-transform duration-300"
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+                        <div class="accordion-content overflow-hidden max-h-0" id="faq-6" role="region">
+                            <p class="pb-5 text-sm text-[#737373] leading-relaxed">You can reach our support team 24/7 via our hotline at 1-800-222-8888, through the contact form on our website, or by emailing support@travila.com. We typically respond within 2 hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== THEY LOVE TRAVILA ===== -->
+        <section id="testimonials" class="py-16 lg:py-24 relative overflow-hidden" style="background: #fff8f0" role="region" aria-label="Customer testimonials">
+            <div class="max-w-[1320px] mx-auto px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row gap-8 lg:gap-10 items-start">
+                    <!-- Left - Illustration Image -->
+                    <div class="hidden lg:block flex-shrink-0 w-[280px]">
+                        <img loading="lazy" decoding="async" src="assets/they-love-travila/f2810d1bff57d4cdcbdcf2aa0876a34a4816986f.png" alt="Travel illustration" class="w-full rounded-3xl" />
+                    </div>
+                    <!-- Right - Title + Cards -->
+                    <div class="flex-1 min-w-0">
+                        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-8">
+                            <div class="flex-1">
+                                <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold">They Love Travila</h2>
+                                <p class="text-gray-500 text-sm md:text-base mt-2">What our clients are saying about us?
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <button class="carousel-arrow" id="testimonial-prev" aria-label="Previous testimonial">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 19l-7-7 7-7" />
+                                    </svg>
+                                </button>
+                                <button class="carousel-arrow" id="testimonial-next" aria-label="Next testimonial">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="testimonial-carousel-wrapper overflow-x-auto snap-x snap-mandatory overflow-y-hidden scroll-smooth no-scrollbar">
+                            <div id="testimonial-carousel" class="flex gap-6 w-max" role="region" aria-label="Customer testimonials" aria-roledescription="carousel">
+                                <!-- Testimonials loaded dynamically from data/testimonials.json -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== DISCOVER DREAM DESTINATIONS  ===== -->
+        <section id="discover-dream" class="dream-section py-16 lg:py-24" role="region" aria-label="Discover dream destinations">
+            <div class="max-w-[1320px] mx-auto px-6 lg:px-8 xl:px-16">
+                <div class="flex flex-col lg:flex-row items-center gap-12">
+                    <!-- Left Content -->
+                    <div class="flex-1">
+                        <div class="mobile-image-wrapper lg:hidden mb-6">
+                            <img loading="lazy" decoding="async" src="assets/discover-dream-destinations/6d4addef331a21e4b34e05c4ba8456a1143bb9a3.png" alt="Beach drink" class="w-full rounded-3xl object-cover shadow-lg" />
+                        </div>
+                        <div class="inline-flex items-center gap-2 border border-gray-200 px-4 py-2 rounded-full mb-6">
+                            <span class="text-sm font-semibold text-gray-dark">Easy payment</span>
+                        </div>
+
+                        <h2 class="section-title text-4xl lg:text-[44px] mb-6">
+                            Discover Dream<br />Destinations with Ease
+                        </h2>
+
+                        <div class="flex flex-col gap-3 mb-8">
+                            <div class="flex items-center gap-3">
+                                <img src="assets/discover-dream-destinations/check.svg.png" alt="check" class="w-5 h-5" />
+                                <span class="text-base font-semibold text-gray-dark">Security Assurance</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <img src="assets/discover-dream-destinations/check.svg.png" alt="check" class="w-5 h-5" />
+                                <span class="text-base font-semibold text-gray-dark">Customer Support</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <img src="assets/discover-dream-destinations/check.svg.png" alt="check" class="w-5 h-5" />
+                                <span class="text-base font-semibold text-gray-dark">Transparent Policies</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <img src="assets/discover-dream-destinations/check.svg.png" alt="check" class="w-5 h-5" />
+                                <span class="text-base font-semibold text-gray-dark">Reputable Affiliations</span>
+                            </div>
+                        </div>
+
+                        <!-- Payment logos -->
+                        <div class="company-logos flex flex-wrap gap-4 mb-8">
+                            <div class="company-logo-card">
+                                <img src="assets/discover-dream-destinations/12.png" alt="PayPal" class="h-6 object-contain" />
+                            </div>
+                            <div class="company-logo-card">
+                                <img src="assets/discover-dream-destinations/12-1.png" alt="Stripe" class="h-6 object-contain" />
+                            </div>
+                            <div class="company-logo-card">
+                                <img src="assets/discover-dream-destinations/12-2.png" alt="Mastercard" class="h-6 object-contain" />
+                            </div>
+                            <div class="company-logo-card">
+                                <img src="assets/discover-dream-destinations/12-3.png" alt="Skrill" class="h-6 object-contain" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right - Images -->
+                    <div class="flex-1 relative discover-image-group">
+                        <!-- Main beach image with play button -->
+                        <div class="relative rounded-2xl overflow-hidden">
+                            <img src="assets/discover-dream-destinations/beach-resort.png" alt="Beach resort" class="w-full h-[350px] object-cover rounded-2xl" loading="lazy" decoding="async" />
+                            <button class="play-btn absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" id="play-video" aria-label="Play destination video">
+                                <svg class="w-6 h-6 text-black" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <!-- Floating review card - Sophia Moore -->
+                        <div class="hidden lg:block floating-review-card absolute z-10" style="bottom: -20px; left: 12%; transform: translateX(-50%)">
+                            <div class="bg-white rounded-2xl p-5 min-w-[260px]" style="box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15)">
+                                <div class="flex items-center gap-3 mb-3">
+                                    <img src="assets/discover-dream-destinations/d01bc6a3a9e4f01b45b757b2080a1eec7987f630.png" alt="Sophia Moore" class="w-10 h-10 rounded-full object-cover" />
+                                    <div>
+                                        <div class="text-sm font-bold text-black">Sophia Moore</div>
+                                        <div class="text-xs text-[#737373]">New York</div>
+                                    </div>
+                                </div>
+                                <p class="text-sm text-[#737373] italic mb-3">
+                                    Exceptional service, incredible <br /> experiences.
+                                </p>
+                                <div class="flex gap-0.5">
+                                    <span class="text-accent text-base">★★★★★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Small side image -->
+                        <div class="absolute -bottom-4 right-48 top-64 w-36 h-36 rounded-2xl overflow-hidden shadow-lg hidden lg:block side-small-image">
+                            <img loading="lazy" decoding="async" src="assets/discover-dream-destinations/6d4addef331a21e4b34e05c4ba8456a1143bb9a3.png" alt="Beach drink" class="w-full h-full object-cover" />
+                        </div>
+
+                        <!-- Dots decoration -->
+                        <div class="absolute -top-4 -right-4 hidden lg:block" aria-hidden="true">
+                            <div class="grid grid-cols-8 gap-1.5">
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                                <span class="w-1.5 h-1.5 rounded-full bg-accent"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== POPULAR SPOTS ===== -->
+        <section id="popular-spots" class="py-16 lg:py-24 bg-blue-light" role="region" aria-label="Popular spots">
+            <div class="max-w-[1320px] mx-auto px-6 lg:px-8">
+                <!-- Header -->
+                <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between mb-10 gap-4">
+                    <div>
+                        <h2 class="section-title">Popular Spots</h2>
+                        <p class="section-subtitle">
+                            Dare to live the lift you've always wanted
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 flex-wrap">
+                        <div class="relative">
+                            <button type="button" id="popular-filter-category" class="filter-btn" data-filter-type="category" data-filter-value="all" aria-expanded="false">
+                                <span class="filter-label">Categories</span>
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
+                            <ul id="popular-filter-category-dropdown" class="hidden absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-10 min-w-[150px]" role="menu">
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="category" data-filter-value="all" role="menuitem">All</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="category" data-filter-value="adventure" role="menuitem">Adventure</button>
+                                </li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="category" data-filter-value="cultural" role="menuitem">Cultural</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="category" data-filter-value="nature" role="menuitem">Nature</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="category" data-filter-value="urban" role="menuitem">Urban</button></li>
+                            </ul>
+                        </div>
+                        <div class="relative">
+                            <button type="button" id="popular-filter-duration" class="filter-btn" data-filter-type="duration" data-filter-value="all" aria-expanded="false">
+                                <span class="filter-label">Duration</span>
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
+                            <ul id="popular-filter-duration-dropdown" class="hidden absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-10 min-w-[150px]" role="menu">
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="duration" data-filter-value="all" role="menuitem">All</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="duration" data-filter-value="1-3" role="menuitem">1-3 Days</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="duration" data-filter-value="4-7" role="menuitem">4-7 Days</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="duration" data-filter-value="8+" role="menuitem">8+ Days</button></li>
+                            </ul>
+                        </div>
+                        <div class="relative">
+                            <button type="button" id="popular-filter-rating" class="filter-btn" data-filter-type="rating" data-filter-value="all" aria-expanded="false">
+                                <span class="filter-label">Review / Rating</span>
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
+                            <ul id="popular-filter-rating-dropdown" class="hidden absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-10 min-w-[150px]" role="menu">
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="rating" data-filter-value="all" role="menuitem">All</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="rating" data-filter-value="4" role="menuitem">4+ Stars</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="rating" data-filter-value="3" role="menuitem">3+ Stars</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="rating" data-filter-value="2" role="menuitem">2+ Stars</button></li>
+                            </ul>
+                        </div>
+                        <div class="relative">
+                            <button type="button" id="popular-filter-price" class="filter-btn" data-filter-type="price" data-filter-value="all" aria-expanded="false">
+                                <span class="filter-label">Price range</span>
+                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7" />
+                                </svg>
+                            </button>
+                            <ul id="popular-filter-price-dropdown" class="hidden absolute top-full left-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-10 min-w-[150px]" role="menu">
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="price" data-filter-value="all" role="menuitem">All</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="price" data-filter-value="budget" role="menuitem">Budget ($)</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="price" data-filter-value="mid" role="menuitem">Mid ($$)</button></li>
+                                <li><button type="button" class="filter-option w-full text-left px-4 py-2 text-sm hover:bg-yellow-50" data-filter-type="price" data-filter-value="luxury" role="menuitem">Luxury ($$$)</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spots Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="spots-grid">
+                    <!-- Spots loaded dynamically from data/spots.json -->
+                </div>
+            </div>
+        </section>
+        <!-- ===== NEWS, TIPS & GUIDES ===== -->
+        <section id="blog" class="py-16 lg:py-24" role="region" aria-label="News, tips and guides">
+            <div class="max-w-[1320px] mx-auto px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="section-title">News, Tips & Guides</h2>
+                    <p class="section-subtitle">Favorite destinations based on customer reviews</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7" id="blog-grid">
+                    <!-- Blog cards loaded dynamically from data/blog-posts.json -->
+                    <div class="skeleton-card" aria-hidden="true">
+                        <div class="h-56 bg-gray-200 rounded-t-2xl animate-pulse"></div>
+                        <div class="p-5 space-y-3">
+                            <div class="h-3 bg-gray-200 rounded animate-pulse w-1/2"></div>
+                            <div class="h-5 bg-gray-200 rounded animate-pulse w-full"></div>
+                            <div class="h-4 bg-gray-200 rounded animate-pulse w-2/3"></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card" aria-hidden="true">
+                        <div class="h-56 bg-gray-200 rounded-t-2xl animate-pulse"></div>
+                        <div class="p-5 space-y-3">
+                            <div class="h-3 bg-gray-200 rounded animate-pulse w-1/2"></div>
+                            <div class="h-5 bg-gray-200 rounded animate-pulse w-full"></div>
+                            <div class="h-4 bg-gray-200 rounded animate-pulse w-2/3"></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card" aria-hidden="true">
+                        <div class="h-56 bg-gray-200 rounded-t-2xl animate-pulse"></div>
+                        <div class="p-5 space-y-3">
+                            <div class="h-3 bg-gray-200 rounded animate-pulse w-1/2"></div>
+                            <div class="h-5 bg-gray-200 rounded animate-pulse w-full"></div>
+                            <div class="h-4 bg-gray-200 rounded animate-pulse w-2/3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== APP DOWNLOAD SECTION ===== -->
+        <section id="app-download" class="py-16 lg:py-24" role="region" aria-label="App download">
+            <div class="max-w-[1320px] mx-auto px-6 lg:px-8">
+                <div class="app-section p-8 lg:p-16 relative">
+                    <div class="flex flex-col lg:flex-row items-center gap-12">
+                        <!-- Left -->
+                        <div class="flex-1">
+                            <div class="inline-flex items-center gap-2 bg-accent px-4 py-2 rounded-full mb-6">
+                                <span class="text-xs font-bold text-black">Install APP & Get discount code</span>
+                            </div>
+
+                            <h2 class="section-title text-3xl lg:text-[42px] mb-4">
+                                Discover Seamless<br />Travel with Travila
+                            </h2>
+
+                            <p class="text-sm text-[#737373] leading-relaxed mb-8 max-w-md">
+                                Embark on a journey like never before with Travila – your ultimate travel companion.
+                            </p>
+
+                            <!-- App Store Buttons -->
+                            <div class="flex items-center gap-4 flex-wrap">
+                                <a href="#" class="inline-flex items-center gap-3 bg-black text-white px-5 py-3 rounded-xl hover:bg-gray-800 transition" data-demo-link>
+                                    <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M3.609 1.814L13.792 12 3.609 22.186a2.372 2.372 0 01-.609-1.651V3.465c0-.613.22-1.186.609-1.651zm.904-.78L15.394 11.15 12.9 8.657 4.916.681C4.794.559 4.65.465 4.513 1.034zm11.398 10.632l2.807-1.623-2.49-2.49-3.013 3.014 2.696
+                                    1.099zm-3.215 1.37L15.393 12.85 4.513 22.966c.137-.569.281-.122.403-.244l8.01-8.01 3.013 3.014-2.807 1.623-2.437-.313z" />
+                                    </svg>
+                                    <div>
+                                        <div class="text-[10px] uppercase tracking-wider opacity-80">
+                                            GET IT ON
+                                        </div>
+                                        <div class="text-sm font-bold">Google Play</div>
+                                    </div>
+                                </a>
+                                <a href="#" class="inline-flex items-center gap-3 bg-black text-white px-5 py-3 rounded-xl hover:bg-gray-800 transition" data-demo-link>
+                                    <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03
+                                    2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
+                                    </svg>
+                                    <div>
+                                        <div class="text-[10px] uppercase tracking-wider opacity-80">
+                                            Download on the
+                                        </div>
+                                        <div class="text-sm font-bold">App Store</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Right - Device mockups -->
+                        <div class="flex-1 relative hidden lg:flex items-center justify-center">
+                            <img src="assets/discover-seamless/app-preview.png" alt="App Preview" class="max-h-[400px] object-contain relative z-10" loading="lazy" decoding="async" />
+                        </div>
+                    </div>
+
+                    <!-- Chevrons decoration -->
+                    <div class="absolute bottom-8 right-12 hidden lg:block" aria-hidden="true">
+                        <div class="chevrons">>>>>>>>>></div>
+                        <div class="chevrons ml-8">>>>>>>>>></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer id="footer" class="footer" role="contentinfo">
+            <div class="max-w-[1320px] mx-auto px-6 lg:px-8 py-12 lg:py-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12">
+                    <!-- Brand Column -->
+                    <div class="lg:col-span-1">
+                        <a href="#" class="flex items-center gap-1 mb-4 footer-brand">
+                            <img src="assets/hero/logo2.svg.png" alt="Travila Logo" class="h-7 w-auto" />
+                            <span class="text-lg font-extrabold text-white">Travila</span>
+                        </a>
+                        <p class="text-sm text-gray-500 leading-relaxed mb-6">
+                            Dive into local recommendations for a truly authentic experience.
+                        </p>
+                        <div class="flex items-center gap-2 mb-2">
+                            <img loading="lazy" decoding="async" src="assets/footer/phone.svg.png" alt="phone" class="w-4 h-4 opacity-60" />
+                            <span class="text-xs text-gray-500">Need help? Call us</span>
+                        </div>
+                        <a href="tel:1-800-222-8888" class="text-base font-bold text-accent hover:text-yellow-400 transition">1-800-222-8888</a>
+                    </div>
+
+                    <!-- Company -->
+                    <div>
+                        <h2>Company</h2>
+                        <ul class="flex flex-col gap-3">
+                            <li><a href="#featured-tours" class="hover:text-accent transition">About Us</a></li>
+                            <li><a href="#blog" class="hover:text-accent transition">Community Blog</a></li>
+                            <li><a href="#featured-tours" class="hover:text-accent transition">Jobs & Careers</a></li>
+                            <li><a href="#footer" class="hover:text-accent transition">Contact Us</a></li>
+                            <li><a href="#testimonials" class="hover:text-accent transition">Our Awards</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Services -->
+                    <div>
+                        <h2>Services</h2>
+                        <ul class="flex flex-col gap-3">
+                            <li><a href="#popular-spots" class="hover:text-accent transition">Tour Guide</a></li>
+                            <li><a href="#featured-tours" class="hover:text-accent transition">Tour Booking</a></li>
+                            <li><a href="#hero" class="hover:text-accent transition">Hotel Booking</a></li>
+                            <li><a href="#hero" class="hover:text-accent transition">Ticket Booking</a></li>
+                            <li><a href="#hero" class="hover:text-accent transition">Rental Services</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Legal -->
+                    <div>
+                        <h2>Legal</h2>
+                        <ul class="flex flex-col gap-3">
+                            <li><a href="#" class="hover:text-accent transition" data-demo-link>Terms of Service</a>
+                            </li>
+                            <li><a href="#" class="hover:text-accent transition" data-demo-link>Privacy Policy</a></li>
+                            <li><a href="#" class="hover:text-accent transition" data-demo-link>Cookies Policy</a></li>
+                            <li><a href="#" class="hover:text-accent transition" data-demo-link>Data Processing</a></li>
+                            <li><a href="#" class="hover:text-accent transition" data-demo-link>Data Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Support -->
+                    <div>
+                        <h2>Support</h2>
+                        <ul class="flex flex-col gap-3">
+                            <li><a href="#blog" class="hover:text-accent transition">Forum Support</a></li>
+                            <li><a href="#faq" class="hover:text-accent transition">Help Center</a></li>
+                            <li><a href="#how-it-works" class="hover:text-accent transition">How it Works</a></li>
+                            <li><a href="#discover-dream" class="hover:text-accent transition">Security</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div>
+                        <h2>Newsletter</h2>
+                        <div class="flex items-center gap-2 bg-gray-900 rounded-lg px-3 py-2 mb-4">
+                            <img loading="lazy" decoding="async" src="assets/footer/email.svg.png" alt="Email icon" class="w-4 h-4 opacity-60" />
+                            <input type="email" placeholder="Enter your email" class="bg-transparent text-sm text-gray-400 outline-none flex-1 placeholder-gray-600" id="newsletter-input" aria-label="Email address for newsletter" />
+                        </div>
+                        <button type="button" class="bg-accent text-black px-5 py-2 rounded-lg text-sm font-bold hover:bg-yellow-400 transition" id="subscribe-btn" aria-label="Subscribe to newsletter">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="border-t border-gray-800">
+                <div class="max-w-[1320px] mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+                    <p class="text-xs text-gray-600">
+                        2024 Travila Inc. All rights reserved.
+                    </p>
+                    <div class="flex items-center gap-4">
+                        <span class="text-sm text-gray-500">Follow us</span>
+                        <div class="flex items-center gap-3">
+                            <a href="https://instagram.com" class="w-8 h-8 border border-gray-700 rounded-full flex items-center justify-center hover:border-accent hover:text-accent transition" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849
+                                    0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618
+                                    6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12
+                                    0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                                </svg>
+                            </a>
+                            <a href="https://facebook.com" class="w-8 h-8 border border-gray-700 rounded-full flex items-center justify-center hover:border-accent hover:text-accent transition" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532
+                                    3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" class="w-8 h-8 border border-gray-700 rounded-full flex items-center justify-center hover:border-accent hover:text-accent transition" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923
+                                    4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935
+                                    9.935 0 0024 4.59z" />
+                                </svg>
+                            </a>
+                            <a href="https://youtube.com" class="w-8 h-8 border border-gray-700 rounded-full flex items-center justify-center hover:border-accent hover:text-accent transition" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015
+                                    3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                                </svg>
+                            </a>
+                        </div>
+                        <button id="back-to-top" class="w-10 h-10 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition" aria-label="Scroll to top">
+                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 10l7-7m0 0l7 7m-7-7v18" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="fixed inset-0 bg-black/50 z-50 hidden items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="booking-modal-title">
+        <div class="bg-white rounded-2xl max-w-md w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-6">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 id="booking-modal-title" class="text-xl font-bold text-black">Book Your Tour</h3>
+                    <button id="close-booking-modal" class="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center hover:bg-gray-200 transition" aria-label="Close modal">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <form id="booking-form" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1" for="booking-full-name">Full Name *</label>
+                        <input id="booking-full-name" type="text" name="fullName" required autocomplete="name" class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:border-black transition" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1" for="booking-email">Email *</label>
+                        <input id="booking-email" type="email" name="email" required autocomplete="email" class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:border-black transition" placeholder="john@example.com">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1" for="booking-phone">Phone *</label>
+                        <input id="booking-phone" type="tel" name="phone" required autocomplete="tel" class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:border-black transition" placeholder="+1 234 567 890">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1" for="booking-travel-date">Travel Date *</label>
+                        <input id="booking-travel-date" type="date" name="travelDate" required class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:border-black transition">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1" for="booking-guests">Number of Guests *</label>
+                        <select id="booking-guests" name="guests" required class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:border-black transition">
+                            <option value="">Select guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5+">5+ Guests</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1" for="booking-requests">Special Requests</label>
+                        <textarea id="booking-requests" name="specialRequests" rows="3" class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:border-black transition resize-none" placeholder="Any special requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition">
+                        Confirm Booking
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sign In Modal -->
+    <div id="signin-modal" class="fixed inset-0 bg-black/50 z-50 hidden items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="signin-modal-title">
+        <div class="bg-white rounded-2xl max-w-md w-full">
+            <div class="p-6">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 id="signin-modal-title" class="text-xl font-bold text-black">Sign In</h3>
+                    <button id="close-signin-modal" class="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center hover:bg-gray-200 transition" aria-label="Close modal">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <form id="signin-form" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1" for="signin-email">Email *</label>
+                        <input id="signin-email" type="email" name="email" required autocomplete="email" class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:border-black transition" placeholder="your@email.com">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1" for="signin-password">Password *</label>
+                        <input id="signin-password" type="password" name="password" required minlength="6" autocomplete="current-password" class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:border-black transition" placeholder="••••••••">
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <label class="flex items-center gap-2 cursor-pointer">
+                            <input type="checkbox" name="remember" class="w-4 h-4 rounded border-gray-300">
+                            <span class="text-sm text-gray-600">Remember me</span>
+                        </label>
+                        <a href="#" class="text-sm text-orange hover:underline">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition">
+                        Sign In
+                    </button>
+                    <p class="text-center text-sm text-gray-600">
+                        Don't have an account? <a href="#" class="text-orange font-semibold hover:underline">Sign Up</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div id="toast-container" class="fixed top-4 right-4 z-50 flex flex-col gap-2" aria-live="polite" aria-atomic="true"></div>
+
+    <!-- General Demo Modal -->
+    <div id="demo-modal" class="fixed inset-0 bg-black/50 z-50 hidden items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="demo-modal-title">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 relative">
+            <button id="close-demo-modal" class="absolute top-4 right-4 text-gray-500 hover:text-gray-700" aria-label="Close dialog">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <h3 id="demo-modal-title" class="text-xl font-bold mb-2">Demo Component</h3>
+            <p class="text-gray-600 mb-4">This is a demo placeholder for the requested feature. This functionality will be implemented in a future update.</p>
+            <div class="bg-gray-100 rounded-lg p-4 mb-4">
+                <p class="text-sm text-gray-500">Feature details and content will appear here.</p>
+            </div>
+            <button id="demo-modal-ok" class="w-full bg-black text-white py-3 rounded-full font-semibold hover:bg-gray-800 transition">OK</button>
+        </div>
+    </div>
+
+    <!-- Chatbot Widget -->
+    <div id="chatbot-widget" class="fixed bottom-[5.5rem] right-4 sm:right-20 sm:bottom-6 z-[9999]">
+        <!-- Chat Toggle Button -->
+        <button id="chatbot-toggle" class="w-14 h-14 bg-[#FEFA17] rounded-full shadow-lg flex items-center justify-center hover:bg-yellow-400 transition-all hover:scale-110" aria-label="Open chat">
+            <svg class="w-7 h-7 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+            </svg>
+        </button>
+
+        <!-- Chat Window -->
+        <div id="chatbot-window" class="chatbot-closed chatbot-window-pos bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col" style="max-height: 500px;">
+            <!-- Header -->
+            <div class="bg-[#FEFA17] p-4 flex items-center justify-between">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-black rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-[#FEFA17]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-black text-sm">Travila Assistant</h3>
+                        <p class="text-xs text-gray-700">Ask me about Travila</p>
+                    </div>
+                </div>
+                <button id="chatbot-close" class="text-black hover:text-gray-700 transition" aria-label="Close chat">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Messages Container -->
+            <div id="chatbot-messages" class="flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50" role="log" aria-live="polite" aria-label="Travila Assistant messages">
+                <!-- Welcome Message -->
+                <div class="flex items-start gap-2">
+                    <div class="w-8 h-8 bg-black rounded-full flex items-center justify-center flex-shrink-0">
+                        <svg class="w-4 h-4 text-[#FEFA17]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                        </svg>
+                    </div>
+                    <div class="bg-white p-3 rounded-2xl rounded-tl-none shadow-sm max-w-[80%]">
+                        <p class="text-sm text-gray-700">Hi! I'm the Travila Assistant. I can help you with questions about our travel services, destinations, tours, and booking. How can I assist you today?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="p-4 bg-white border-t border-gray-200">
+                <div class="flex items-center gap-2">
+                    <input type="text" id="chatbot-input" placeholder="Ask about Travila..." class="flex-1 px-4 py-2 border border-gray-300 rounded-full text-sm focus:outline-none focus:border-[#FEFA17] focus:ring-1 focus:ring-[#FEFA17]" aria-label="Type your message" />
+                    <button id="chatbot-send" class="w-10 h-10 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition" aria-label="Send message">
+                        <svg class="w-4 h-4 text-[#FEFA17]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./src/script.js" defer></script>
+    <script>
+        // Remove the previous offline worker: it was serving stale/failed asset requests.
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations()
+                .then(registrations => registrations.forEach(registration => registration.unregister()));
+        }
+    </script>
+</body>
+
+</html>

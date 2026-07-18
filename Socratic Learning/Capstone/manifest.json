@@ -1,0 +1,26 @@
+{
+  "name": "Travila - Travel Booking App",
+  "short_name": "Travila",
+  "description": "Your ultimate travel companion for booking tours, hotels, and discovering dream destinations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FEFA17",
+  "orientation": "portrait-primary",
+  "categories": ["travel", "booking", "tourism"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Search Tours",
+      "short_name": "Search",
+      "description": "Find and book tours",
+      "url": "/#hero"
+    },
+    {
+      "name": "Popular Destinations",
+      "short_name": "Destinations",
+      "description": "Explore popular destinations",
+      "url": "/#popular-destinations"
+    }
+  ]
+}

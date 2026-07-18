@@ -1,0 +1,10 @@
+[
+  { "name": "Eiffel Tower", "tours": 356, "image": "assets/popular-destinations/f5caca3428cab6332ae97eb17cc577f0444cdd54.png" },
+  { "name": "Machu Picchu", "tours": 248, "image": "assets/popular-destinations/02ef9d440f5a9d4b17d3a248c5f0af87adcc20cd.png" },
+  { "name": "Great Wall", "tours": 312, "image": "assets/popular-destinations/fb656bc1f25ab0dbf992459115367f3ac0b4ad5a.png" },
+  { "name": "Statue of Liberty", "tours": 290, "image": "assets/popular-destinations/6f97e3a068acfe4493ec69b68fc4b62c1136e6c1.png" },
+  { "name": "Taj Mahal", "tours": 275, "image": "assets/popular-destinations/4d118f33d0d213d0696ee1d557895c4e0ce409b9.png" },
+  { "name": "Opera House", "tours": 198, "image": "assets/popular-destinations/e4a125a26f5ba3781660b32b92f831ba1270a4f6.png" },
+  { "name": "Colosseum", "tours": 340, "image": "assets/popular-destinations/5515efd3d47507dd3f0692b00a8d24170c3d5641.png" },
+  { "name": "Grand Canyon", "tours": 225, "image": "assets/popular-destinations/1154260122e9df0167fe94f10777eb7afdebedff.png" }
+]

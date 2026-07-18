@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Ultimate Travel Planning Guide: 10 Tips for a Seamless Journey",
+    "category": "Cultural",
+    "image": "assets/news-tips-guides/04f39153db4029330d1f639523490f6c1df6fc63.png",
+    "date": "18 Sep 2024",
+    "readTime": "6 mins",
+    "comments": 38,
+    "author": "Jimmy Dave",
+    "authorAvatar": "assets/news-tips-guides/5789b1145b8dc939266ae182549bf03ac69168a4.png"
+  },
+  {
+    "id": 2,
+    "title": "Top 10 Travel Hacks for Budget-Conscious Adventurers",
+    "category": "Travel",
+    "image": "assets/news-tips-guides/4e5f2ef02584e1049a1284cd57c544a86f26b2f0.png",
+    "date": "18 Sep 2024",
+    "readTime": "6 mins",
+    "comments": 38,
+    "author": "Jimmy Dave",
+    "authorAvatar": "assets/news-tips-guides/5789b1145b8dc939266ae182549bf03ac69168a4.png"
+  },
+  {
+    "id": 3,
+    "title": "Discovering Hidden Gems: 10 Off-the-Beaten-Path Travel Tips",
+    "category": "Discovery",
+    "image": "assets/news-tips-guides/fd8cebe4fe64704d0e64cf27f78e534f90c63340.png",
+    "date": "18 Sep 2024",
+    "readTime": "6 mins",
+    "comments": 38,
+    "author": "Jimmy Dave",
+    "authorAvatar": "assets/news-tips-guides/5789b1145b8dc939266ae182549bf03ac69168a4.png"
+  },
+  {
+    "id": 4,
+    "title": "How to Travel Solo: A Complete Guide for First-Timers",
+    "category": "Travel",
+    "image": "assets/news-tips-guides/04f39153db4029330d1f639523490f6c1df6fc63.png",
+    "date": "25 Oct 2024",
+    "readTime": "8 mins",
+    "comments": 52,
+    "author": "Sarah Chen",
+    "authorAvatar": "assets/news-tips-guides/5789b1145b8dc939266ae182549bf03ac69168a4.png"
+  },
+  {
+    "id": 5,
+    "title": "Sustainable Travel: 8 Ways to Reduce Your Carbon Footprint",
+    "category": "Cultural",
+    "image": "assets/news-tips-guides/4e5f2ef02584e1049a1284cd57c544a86f26b2f0.png",
+    "date": "02 Nov 2024",
+    "readTime": "5 mins",
+    "comments": 27,
+    "author": "Alex Rivera",
+    "authorAvatar": "assets/news-tips-guides/5789b1145b8dc939266ae182549bf03ac69168a4.png"
+  },
+  {
+    "id": 6,
+    "title": "Best Street Food Destinations Around the World",
+    "category": "Discovery",
+    "image": "assets/news-tips-guides/fd8cebe4fe64704d0e64cf27f78e534f90c63340.png",
+    "date": "15 Nov 2024",
+    "readTime": "7 mins",
+    "comments": 44,
+    "author": "Jimmy Dave",
+    "authorAvatar": "assets/news-tips-guides/5789b1145b8dc939266ae182549bf03ac69168a4.png"
+  }
+]

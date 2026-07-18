@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Sara Mohamed",
+    "location": "Jakarta",
+    "title": "The best booking system",
+    "text": "I've been using the hotel booking system for several years now, and it's become my go-to platform for planning my trips. The interface is user-friendly, and I appreciate the detailed information and real-time availability of hotels.",
+    "rating": 5,
+    "avatar": "assets/they-love-travila/424dfb4defe396f2afb931bb26871a8b39787a29.png"
+  },
+  {
+    "name": "Atend John",
+    "location": "California",
+    "title": "Amazing travel experiences",
+    "text": "Travila has completely transformed the way I plan my vacations. The variety of tours available is incredible, and the booking process is seamless. I've discovered hidden gems I never would have found on my own.",
+    "rating": 5,
+    "avatar": "assets/they-love-travila/bc491d44a8f6ab5946600b1eaec37f366966b879.png"
+  },
+  {
+    "name": "Maria Garcia",
+    "location": "Barcelona",
+    "title": "Outstanding customer support",
+    "text": "What sets Travila apart is their exceptional customer support. When my flight was delayed and I needed to reschedule my hotel, the team handled everything promptly. They truly care about their customers' experience.",
+    "rating": 5,
+    "avatar": "assets/they-love-travila/424dfb4defe396f2afb931bb26871a8b39787a29.png"
+  },
+  {
+    "name": "David Chen",
+    "location": "Singapore",
+    "title": "Perfect for family trips",
+    "text": "Planning a family trip can be stressful, but Travila made it incredibly easy. From kid-friendly hotels to family tour packages, everything was thoughtfully curated. Our vacation was the best one yet!",
+    "rating": 5,
+    "avatar": "assets/they-love-travila/bc491d44a8f6ab5946600b1eaec37f366966b879.png"
+  }
+]
